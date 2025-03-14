@@ -15,7 +15,6 @@ import java.util.Optional;
 
 @RestController
 @CrossOrigin(origins = "*")
-
 public class MovieController {
 
     //SKal vi bruge responseEntity objektet for mere fleksibilitet som returværdi?

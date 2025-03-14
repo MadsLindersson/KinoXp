@@ -13,6 +13,7 @@ import java.time.LocalDate;
 import java.util.List;
 import java.util.Optional;
 
+
 @CrossOrigin(origins = "*")
 @RestController
 public class MovieScreeningController {
@@ -60,6 +61,7 @@ public class MovieScreeningController {
 
     @PutMapping("updateMovieScreening")
     public ResponseEntity<MovieScreening> updateMovieScreening(@RequestBody MovieScreening movieScreening) {
+        System.out.println(movieScreening);
         Optional<MovieScreening> optionalMovieScreening = movieScreeningService.updateMovieScreening(movieScreening);
 
         if (optionalMovieScreening.isPresent()) {
