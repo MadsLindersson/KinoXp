@@ -18,7 +18,7 @@ import java.util.Optional;
 public class MovieController {
 
     //SKal vi bruge responseEntity objektet for mere fleksibilitet som returværdi?
-    //Skal vi droppe service laget eller skal vi bruge det?
+    //Skal vi  droppe service laget eller skal vi bruge det?
 
     @Autowired
     MovieRepository movieRepository;
