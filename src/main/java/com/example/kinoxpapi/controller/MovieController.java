@@ -25,7 +25,7 @@ public class MovieController {
     @Autowired
     MovieService movieService;
 
-    @GetMapping("/movies")
+    @GetMapping("/")
     public List<Movie> movies() {
         return movieService.findAllMovies();
     }
